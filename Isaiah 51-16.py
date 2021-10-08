@@ -106,9 +106,5 @@ html_text = """"
     </html>
 """"
 
-html_file = open('html_file.html', 'w')
-html_file.write(html_text)
-html_file.close()
-
 with open('html_file', 'a') as html_file:
     html_file.write(html_text)
